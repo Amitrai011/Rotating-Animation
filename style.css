@@ -13,7 +13,7 @@ body {
 .container div {
   width: 150px;
   height: 150px;
-  background-color: red;
+  background-color: #ff671f;
   animation: rotation 2s;
   animation-iteration-count: infinite;
   border-radius: 30px;
@@ -29,22 +29,18 @@ body {
   }
 
   0% {
-    background-color: red;
+    background-color: #ff671f;
   }
 
-  25% {
-    background-color: yellow;
+  34% {
+    background-color: #ff671f;
   }
 
-  50% {
-    background-color: green;
-  }
-
-  75% {
-    background-color: blue;
+  67% {
+    background-color: #ffffff;
   }
 
   100% {
-    background-color: pink;
+    background-color: #046a38;
   }
 }
